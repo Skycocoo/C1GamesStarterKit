@@ -140,6 +140,7 @@ class AlgoStrategy(gamelib.AlgoCore):
         # game_state.attempt_spawn(WALL, wall_locations)
         # # upgrade walls so they soak more damage
         # game_state.attempt_upgrade(wall_locations)
+        #
 
     def build_reactive_defense(self, game_state):
         """
